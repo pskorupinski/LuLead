@@ -1,5 +1,10 @@
-Luwak - stored query engine from Flax
-=====================================
+LuLead - extended version of Luwak (stored query engine from Flax)
+==================================================================
+
+LuLead is a solution for defining complex queries on streams of documents. It extends Luwak with flexibility of definition of stored queries, so that Lucene capabilities like fuzzy queries, span near queries, or Boolean “OR” queries with minimum number of matching terms set can be applied.
+
+Luwak
+-----
 
 This project depends on the Flax lucene-solr-intervals fork of Lucene/Solr.
 Before building, download lucene-solr-intervals from
